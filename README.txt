@@ -11,5 +11,7 @@ $ npm install express --save
 $ node app
     runs app
     
+$ npm install nodemon
+    runs app without restarting
 
-
+$ npm install ejs --save
