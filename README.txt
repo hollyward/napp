@@ -15,3 +15,6 @@ $ npm install nodemon
     runs app without restarting
 
 $ npm install ejs --save
+    embedded javaScript template engine
+    
+    
