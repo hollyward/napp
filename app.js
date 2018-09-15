@@ -5,6 +5,7 @@ var path = require('path');
 
 // Using Express
 var app = express();
+
 /*{'(
 var logger = function(req, res, next){
     console.log('Logging...');
@@ -26,6 +27,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+// Process get requests
 app.get('/', function(req, res){
   res.render('index', {
     title: 'Customers'
